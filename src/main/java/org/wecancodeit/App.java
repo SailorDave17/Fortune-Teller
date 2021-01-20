@@ -24,9 +24,9 @@ class FortuneTellerApp {
 
 
         System.out.println("What month were your born? (please give me the number of the month)");
-        int birthmonth = inputScanner.nextInt();
+        int birthMonth = inputScanner.nextInt();
         inputScanner.nextLine();
-        System.out.println("You entered " + birthmonth);
+        System.out.println("You entered " + birthMonth);
 
         System.out.println("what is your favorite ROYGBIV color? If you dont know what ROYGBIV means, enter \"HELP\"");
         String favoriteColor = inputScanner.nextLine();
@@ -102,11 +102,11 @@ class FortuneTellerApp {
 
         double bankBalance = 0.00;
 
-        if (birthmonth >= 1 && birthmonth <= 4) {
+        if (birthMonth >= 1 && birthMonth <= 4) {
             bankBalance = 10000000;
-        } else if (birthmonth >= 5 && birthmonth <= 9) {
+        } else if (birthMonth >= 5 && birthMonth <= 9) {
             bankBalance = 75000.69;
-        } else if (birthmonth >= 10 && birthmonth <= 12) {
+        } else if (birthMonth >= 10 && birthMonth <= 12) {
             bankBalance = 25000;
         }
 //        System.out.println("You will have " + bankBalance + " in the bank.");
