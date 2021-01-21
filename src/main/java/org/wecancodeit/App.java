@@ -55,7 +55,7 @@ class FortuneTellerApp {
         if (howManySiblings == 0) {
             vacationHomeLocation = "in Cleveland, OH";
         } else if (howManySiblings == 1) {
-            vacationHomeLocation = "on a Royal Caribean Cruise Ship";
+            vacationHomeLocation = "on a Royal Caribbean Cruise Ship";
         } else if (howManySiblings == 2) {
             vacationHomeLocation = "in Belize";
         } else if (howManySiblings == 3) {
