@@ -50,7 +50,6 @@ class FortuneTellerApp {
             yearsUntilRetirement = 16;
         }
 
-//        System.out.println("You will retire in " + yearsUntilRetirement + " years.");
 
         String vacationHomeLocation;
         if (howManySiblings == 0) {
@@ -68,7 +67,6 @@ class FortuneTellerApp {
         }
 
 
-//        System.out.println("You will vacation " + vacationHomeLocation + "!");
 
         String kindOfCar = "";
 
@@ -98,7 +96,6 @@ class FortuneTellerApp {
                 kindOfCar = "Rusty Bike";
         }
 
-//        System.out.println("You will drive a " + kindOfCar + ".");
 
         double bankBalance = 0.00;
 
@@ -109,7 +106,7 @@ class FortuneTellerApp {
         } else if (birthMonth >= 10 && birthMonth <= 12) {
             bankBalance = 25000;
         }
-//        System.out.println("You will have " + bankBalance + " in the bank.");
+
 
         System.out.println(firstName + " " + lastName + " will retire in " + yearsUntilRetirement + " years. Will vacation " + vacationHomeLocation + ". Will drive a " + kindOfCar + ". Will have $" + bankBalance + " in the bank.");
     }
